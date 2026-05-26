@@ -846,3 +846,57 @@ textarea:focus {
     display: flex;
   }
 }
+
+/* PRICING */
+
+.price {
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 3rem;
+
+  color: #f5efe6;
+
+  margin-bottom: 25px;
+}
+
+.service-features {
+  list-style: none;
+
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.service-features li {
+  color: #d8d2c8;
+
+  margin-bottom: 14px;
+
+  position: relative;
+
+  padding-left: 22px;
+}
+
+.service-features li::before {
+  content: "✦";
+
+  position: absolute;
+  left: 0;
+
+  color: #d5b279;
+}
+
+.featured-card {
+  border: 1px solid rgba(213,178,121,0.55);
+
+  transform: scale(1.03);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(245,239,230,0.08),
+      rgba(245,239,230,0.03)
+    );
+
+  box-shadow:
+    0 20px 40px rgba(0,0,0,0.35);
+}
